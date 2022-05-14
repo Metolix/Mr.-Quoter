@@ -21,7 +21,7 @@ body{
   box-shadow: 0 12px 35px rgba(0,0,0,0.1);
 }
 header, .content :where(i, p, span){
-  color: #f05353;
+  color: #202842;
 }
 .wrapper header{
   font-size: 35px;
