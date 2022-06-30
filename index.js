@@ -32,7 +32,7 @@ copyBtn.addEventListener("click", ()=>{
 });
 
 twitterBtn.addEventListener("click", ()=>{
-    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
+    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText} - ${authorName.innerText}`;
     window.open(tweetUrl, "_blank");
 });
 
