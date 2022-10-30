@@ -32,7 +32,7 @@ copyBtn.addEventListener("click", ()=>{
 });
 
 twitterBtn.addEventListener("click", ()=>{
-    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText} - ${authorName.innerText}`;
+    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText} - ${authorName.innerText}, Quote provided by https://mrquoter.netlify.app/`;
     window.open(tweetUrl, "_blank");
 });
 
